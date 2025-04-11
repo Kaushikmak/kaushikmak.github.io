@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushik Gupta - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Kaushik Gupta</a>
+            <nav>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content animate slide-in-left">
+                <h1 class="hero-title">Hi, I'm <span class="accent">Kaushik Gupta</span></h1>
+                <h2 class="hero-subtitle">Electrical & Electronics Engineering Student</h2>
+                <p class="hero-description">I'm passionate about software development and electronics. Currently pursuing B.Tech in EEE at Visvesvaraya National Institute of Technology, Nagpur.</p>
+                <div>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+            <!-- <div class="hero-image animate slide-in-right">
+                <img src="/api/placeholder/500/500" alt="Developer portrait" />
+            </div> -->
+        </section>
+
+        <section id="about">
+            <h2 class="section-title animate fade-in">About Me</h2>
+            <div class="animate fade-in">
+                <p class="about-text">
+                    I'm an Electrical and Electronics Engineering student at VNIT Nagpur, with a strong passion for software development and embedded systems. Through my coursework and personal projects, I've gained experience with Python, C/C++, and mobile app development with Flutter. When I'm not coding, you can find me engaging in culinary arts, sketching, practicing Taekwondo (Black Belt), and exploring electronics and robotics concepts through side projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title animate fade-in">Featured Projects</h2>
+            <div class="projects">
+                <div class="project-card animate fade-in">
+                    <!-- <img src="/api/placeholder/400/200" alt="Room Chat Platform" class="project-image" /> -->
+                    <div class="project-content">
+                        <h3 class="project-title">Room Chat Platform</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">A Django-based web platform that enables users to create, join, and interact in topic-based chat rooms with real-time messaging and user authentication.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kaushikmak/Room-chat" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://kaushikmak.pythonanywhere.com/" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate fade-in" style="animation-delay: 0.2s;">
+                    <!-- <img src="/api/placeholder/400/200" alt="CircuitVision" class="project-image" /> -->
+                    <div class="project-content">
+                        <h3 class="project-title">CircuitVision</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">MATLAB</span>
+                            <span class="project-tag">CNN</span>
+                            <span class="project-tag">Image Processing</span>
+                        </div>
+                        <p class="project-description">A MATLAB-based application that classifies electrical circuit components using image processing and deep learning techniques (CNNs).</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kaushikmak/CircuitVision" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <!-- <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate fade-in" style="animation-delay: 0.4s;">
+                    <!-- <img src="/api/placeholder/400/200" alt="MentorMate" class="project-image" /> -->
+                    <div class="project-content">
+                        <h3 class="project-title">MentorMate</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Flutter</span>
+                            <span class="project-tag">Dart</span>
+                            <span class="project-tag">Firebase</span>
+                        </div>
+                        <p class="project-description">A cross-platform mobile application connecting student mentors and mentees, providing campus maps, personalized schedules, and club information.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kaushikmak/mentormate" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <!-- <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title animate fade-in">Education</h2>
+            <div class="education-container">
+                <div class="education-card animate fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">B.Tech. in Electrical and Electronics Engineering</h3>
+                        <h4 class="education-school">Visvesvaraya National Institute of Technology, Nagpur</h4>
+                        <p class="education-date">2023 - 2027 (Expected)</p>
+                        <p class="education-description">
+                            Current CGPA: 7.59
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="education-card animate fade-in" style="animation-delay: 0.2s;">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Class XII (CBSE)</h3>
+                        <h4 class="education-school">Tagore International School</h4>
+                        <p class="education-date">2022</p>
+                        <p class="education-description">
+                        </p>
+                    </div>
+                </div>
+
+                <div class="education-card animate fade-in" style="animation-delay: 0.4s;">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Class X (CBSE)</h3>
+                        <h4 class="education-school">St. Xavier's</h4>
+                        <p class="education-date">2020</p>
+                        <p class="education-description">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title animate fade-in">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-item animate fade-in">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.1s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.2s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="skill-name">HTML</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.3s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="skill-name">CSS</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.4s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skill-name">Flutter</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.5s;">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-name">C/C++</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.6s;">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="skill-name">SQLite</div>
+                </div>
+                <div class="skill-item animate fade-in" style="animation-delay: 0.7s;">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="skill-name">Git</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title animate fade-in">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info animate slide-in-left">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">kaushikmak35@gmail.com</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">+91-7240453235</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">Nagpur, India</div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/Kaushikmak" class="social-icon-link" target="_blank">
+                            <div class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kaushikgupta5/" class="social-icon-link" target="_blank">
+                            <div class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                        </a>
+                        <a href="https://x.com/KmaK69837720" class="social-icon-link" target="_blank">
+                            <div class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form animate slide-in-right">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" class="form-textarea" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">Kaushik Gupta</div>
+            <div class="social-links">
+                <a href="https://github.com/Kaushikmak" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kaushikgupta5/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://x.com/KmaK69837720" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; <span id="current-year"></span> Kaushik Gupta. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
